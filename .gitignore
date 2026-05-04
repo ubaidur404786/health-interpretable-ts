@@ -5,7 +5,11 @@ __pycache__/
 
 # C extensions
 *.so
-
+data/
+.venv_hts/
+.vscode/
+checkpoints/
+_tmp_wheels_cpu/
 # Distribution / packaging
 .Python
 build/

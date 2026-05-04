@@ -1,0 +1,28 @@
+# ── Core (exact VQShape-confirmed versions) ──────────────────────────────────
+torch==2.4.0
+pytorch-lightning==2.4.0
+einops==0.8.0
+numpy==1.26.4
+pandas==2.2.3
+scikit-learn==1.5.2
+sktime==0.34.0
+tqdm==4.67.0
+
+# ── ECG / wearable data ───────────────────────────────────────────────────────
+# wfdb 4.1.0 hardcodes pandas<2.0.0 — incompatible with pandas 2.2.3
+# wfdb 4.2.0 removed that restriction — use this instead
+wfdb==4.2.0
+neurokit2==0.2.7
+
+# ── Shapelet methods (InterpGN) ───────────────────────────────────────────────
+pyts==0.13.0
+tslearn==0.6.3
+
+# ── Visualization ─────────────────────────────────────────────────────────────
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# ── Notebook ──────────────────────────────────────────────────────────────────
+jupyter==1.1.0
+ipywidgets==8.1.5
+ipykernel==6.29.5
