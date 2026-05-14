@@ -199,15 +199,4 @@ Diagonal (correct) rates from this run:
 
 ![Lead importance](outputs_v10/08c_lead_importance.png)
 
-## Model files
 
-- `outputs_v10/interpgn_v10_best.pt` — best joint model
-- `outputs_v10/resnet_pretrain_best.pt` — ResNet1d pretrain checkpoint
-
-## How to run
-
-- Open `notebook/health_interpretable_v10.ipynb`
-- Make sure PTB‑XL data is in `data/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.3/`
-- Check `FREQ_HZ` in the notebook if you want 100 Hz or 500 Hz
-
-That is the full v10 run and its plots. If you want to add older version results, share those numbers and I can add them.
